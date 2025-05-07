@@ -1,0 +1,108 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --colorPrincipal:#f7f7f7;
+    --colorSecundario: #762a83;
+    --colorTonico:#1b7837;
+}
+
+
+body {
+    
+    background: var(--colorSecundario);
+    color: #1b7837;
+    font-family: "Atkinson Hyperlegible", sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: var(--colorPrincipal);
+    padding: 20px; 
+    border-radius: 8px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: var(--colorTonico);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--colorTonico);
+    border-radius: 8px;
+}
+
+th {
+    background-color: var(--colorPrincipal);
+    font-weight: 500;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--colorPrincipal);
+}
+
+td:nth-child(2) {
+    font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
+p {
+    background: var(--colorTonico);
+    color: var(--colorPrincipal) ;
+    padding: 5px ;
+    border-radius: 8px;
+
+
+}
+
+a:hover{
+    color:var(--colorPrincipal);
+    transition: color ease 0.5s;
+}
+
+a:visited {
+    color:var(--colorSecundario);
+    transition: color ease 1s;
+}
+
+#promedio {
+    font-weight: 800px;
+    color: var(--colorPrincipal);
+}
+
+
+svg {
+    width: 140px;
+    height: 24px;
+    display: block;
+}
+
+#abejita{
+    width: 500px; 
+    height: 500px;
+
+}
+
+object {
+    width: 800px;
+    height: 600px;
+    align-content: center;
+
+}
+
+
+    
